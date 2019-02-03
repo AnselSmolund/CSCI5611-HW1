@@ -4,9 +4,27 @@
     <meta charset="utf-8">
     <script type="text/javascript" src="processing.js"></script>
     <title></title>
+    <style>
+    #vid-demo{
+      position: absolute;
+      transform: translateX(55%);
+      align-content: center;
+    }
+    /* #live-demo{
+      position: relative;
+
+    } */
+    </style>
   </head>
   <body>
-    <canvas data-processing-sources="hw01_checkin.pde"></canvas>
-
+    <div id = "vid-demo">
+      <video width = "600" controls>
+        <source src = "HW1_CheckinVid.mov">
+      </video>
+    </div>
+    <!-- <div id = "live-demo">
+      <h1> live demo </h1>
+      <canvas data-processing-sources="hw01_checkin.pde"></canvas>
+    </div> -->
   </body>
 </html>
