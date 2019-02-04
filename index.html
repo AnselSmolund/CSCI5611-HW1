@@ -5,10 +5,24 @@
     <script type="text/javascript" src="processing.js"></script>
     <title></title>
     <style>
+    #title{
+      text-align: center;
+      height: 50px;
+      width: 100%;
+      margin-bottom: 10px;
+      margin: 0px;
+      background: rgba(0,0,0,0.2);
+    }
     #vid-demo{
       position: absolute;
-      transform: translateX(55%);
+      transform: translateX(65%);
       align-content: center;
+    }
+    #code-link{
+      position: relative;
+      align-items: center;
+      align-content: center;
+      text-align: center;
     }
     /* #live-demo{
       position: relative;
@@ -17,10 +31,14 @@
     </style>
   </head>
   <body>
+    <div id = "title">
+      <h1> HW01 Check in </h1>
+    </div>
     <div id = "vid-demo">
       <video width = "600" controls>
         <source src = "HW1_CheckinVid.mov">
       </video>
+      <h3 id = "code-link"> <a href = "https://github.com/AnselSmolund/CSCI5611-HW1/blob/master/hw01_checkin.pde"> Click for code </a></h3>
     </div>
     <!-- <div id = "live-demo">
       <h1> live demo </h1>
